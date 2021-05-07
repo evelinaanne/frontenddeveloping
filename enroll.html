@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="menu.js"></script>
+    <title>Yogastudio Namaste</title>
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="enroll.html">Enroll to a Class</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+    <div id="wrapper">
+<header><div id="headerdiv"></div></header>
+
+<main align="center">
+    <h2 align="left">Enroll to a class</h2>
+    
+    
+    <form action="/action_page.php">
+        <label for="firstname">Firstname*</label><br>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+        <label for="lastname">Lastname*</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        <label for="email">@-mail*</label><br>
+        <input type="text" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phonenumber*</label><br>
+        <input type="text" id="phone" name="phone" required><br><br>
+        <label for="courses">I want to enroll...*</label><br>
+        <select id="courses" name="courses">
+            <option value="basic_course">Basic Yoga Classes</option>
+            <option value="outdoor_course">Outdoor Yoga Classes</option>
+            <option value="maternity">Maternity Yoga Classes</option>
+            <option value="child">Parent-Child Yoga Classes</option>
+        </select>
+        <br><br>
+        <input type="submit">
+      </form>
+      <br><br>
+      <img src="yogaguys.png" width="500">
+    
+</main>
+<footer>
+    Copyright © Eveliina Nieminen - <a href="mailto:eveliina.a.nieminen@edu.turkuamk.fi">eveliina.a.nieminen@edu.turkuamk.fi</a><br>
+    Pictures &copy; Pexels.com<br><bR>
+    
+    HOX! This is a simulation, not a real yoga studio!
+
+</footer>
+</div>
+</body>
+</html>

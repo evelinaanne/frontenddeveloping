@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="menu.js"></script>
+    <title>Yogastudio Namaste</title>
+
+    <style>
+        .divclass1{
+            background-image: url("yoga1.jpeg");
+            border-radius: 10px;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+
+        }
+        .divclass2{
+            background-image: url("yoga2.jpeg");
+            border-radius: 10px;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+
+        }
+        .divclass3{
+            background-image: url("yoga3.jpeg");
+            border-radius: 10px;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+
+        }
+        .divclass4{
+            background-image: url("yoga4.jpeg");
+            border-radius: 10px;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+
+        }
+
+        #overlay {
+            background-color: rgba(0,0,0,0.3);
+            cursor: pointer;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+            display: none;
+            border-radius: 10px;
+                    }
+        #text{
+            padding-top: 50px;
+            text-align: center;
+            font-size: 14px;
+            color: white;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+        }
+        #overlay1{
+            background-color: rgba(0,0,0,0.3);
+            cursor: pointer;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+            display: none;
+            border-radius: 10px;
+                    }
+        #text1{
+            padding-top: 50px;
+            text-align: center;
+            font-size: 14px;
+            color: white;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+
+        }
+
+        #overlay2{
+            background-color: rgba(0,0,0,0.3);
+            cursor: pointer;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+            display: none;
+            border-radius: 10px;
+                    }
+        #text2{
+            padding-top: 50px;
+            text-align: center;
+            font-size: 14px;
+            color: white;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+
+        }
+        #overlay3{
+            background-color: rgba(0,0,0,0.3);
+            cursor: pointer;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+            display: none;
+            border-radius: 10px;
+                    }
+        #text3{
+            padding-top: 50px;
+            text-align: center;
+            font-size: 14px;
+            color: white;
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="enroll.html">Enroll to a Class</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <div id="wrapper">
+<header><div id="headerdiv"></div></header>
+
+<main>
+    <h2>Yoga classes</h2>
+    Here is all our yoga classes and prices of them. If you are legitable for a discount, contact our customer service!<br><br>
+    <table align="center">
+
+<tr>
+    <td>
+        <div class="divclass1" onmouseover="on()">
+            <div id="overlay" onmouseout="off()">
+            <div id="text"><b>Basic Yoga Classes</b><br><br> 10 times / 159 euros (including VAT)</div>
+          </div></div>
+    </td>
+    <td>
+        <div class="divclass2" onmouseover="on1()">
+            <div id="overlay1" onmouseout="off1()">
+            <div id="text1"><b>Outdoor Yoga Classes</b><br><br> 10 times / 109 euros (including VAT)</div>
+          </div></div>
+    </td>
+</tr>
+
+<tr><td><div class="divclass3" onmouseover="on2()">
+    <div id="overlay2" onmouseout="off2()">
+    <div id="text2"><b>Parent and Child- Yoga Classes</b><br><br> 10 times / 169 euros (including VAT)</div>
+  </div></div></td>
+    <td>
+        <div class="divclass4" onmouseover="on3()">
+            <div id="overlay3" onmouseout="off3()">
+            <div id="text3"><b>Pregnancy Yoga Classes</b><br><br> 10 times / 139 euros (including VAT)</div>
+    </td></tr>
+
+    </table>
+    
+      <script>
+        function on() {
+          document.getElementById("overlay").style.display = "block";
+        }
+        
+        function off() {
+          document.getElementById("overlay").style.display = "none";
+        }
+
+        function on1() {
+          document.getElementById("overlay1").style.display = "block";
+        }
+        
+        function off1() {
+          document.getElementById("overlay1").style.display = "none";
+        }
+
+        function on2() {
+          document.getElementById("overlay2").style.display = "block";
+        }
+        
+        function off2() {
+          document.getElementById("overlay2").style.display = "none";
+        }
+
+        function on3() {
+          document.getElementById("overlay3").style.display = "block";
+        }
+        
+        function off3() {
+          document.getElementById("overlay3").style.display = "none";
+        }
+        </script>
+    
+        
+</main>
+<footer>
+    Copyright © Eveliina Nieminen - <a href="mailto:eveliina.a.nieminen@edu.turkuamk.fi">eveliina.a.nieminen@edu.turkuamk.fi</a><br>
+    Pictures &copy; Pexels.com<br><bR>
+    
+    HOX! This is a simulation, not a real yoga studio!   
+</footer>
+</div>
+
+</body>
+</html>
